@@ -11,7 +11,7 @@ const UserData = ({users}) => {
 
             return(
                 <tr key={id}>
-                    <td>{id}</td>
+                    <td className='numbers'>{id}</td>
                     <td>{name}</td>
                     <td>{email}</td>
                     <td>{street} ,{city}, {" "}, {zipcode}</td>
